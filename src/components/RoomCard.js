@@ -6,7 +6,7 @@ export default function RoomCard({ room, onView, onBook }) {
   const [isHovered, setIsHovered] = useState(false)
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
   
-  const images = room.images || ['/images/placeholder.jpg']
+  const images = room.images || ['/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0001.jpg']
   const hasMultipleImages = images.length > 1
 
   // Auto-slide functionality

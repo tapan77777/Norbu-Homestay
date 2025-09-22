@@ -11,7 +11,10 @@ const DEMO_ROOMS = [
     title:'Deluxe Room', 
     slug:'deluxe-room', 
     short:'Cozy room with balcony', 
-    images:['/images/room1.jpg','/images/room1-2.jpg', '/images/room1-3.jpg', '/images/room1-4.jpg'], 
+    images:['/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250910-WA0003.jpg',
+        '/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250913-WA0002.jpg',
+         '/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0005.jpg',
+          '/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250913-WA0003.jpg'], 
     pricePerNight:2500, 
     capacity:2, 
     description:'Luxurious deluxe room featuring a comfortable king-size bed, private balcony overlooking the scenic hills, modern amenities, and elegant décor. Perfect for couples seeking a romantic getaway.',
@@ -22,7 +25,9 @@ const DEMO_ROOMS = [
     title:'Family Suite', 
     slug:'family-suite', 
     short:'Spacious suite for families', 
-    images:['/images/room2.jpg', '/images/room2-2.jpg', '/images/room2-3.jpg'], 
+    images:['/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0010.jpg', 
+        '/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250915-WA0007.jpg', 
+        '/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0001.jpg'], 
     pricePerNight:4200, 
     capacity:4, 
     description:'Generous family suite with two separate bedrooms, a fully equipped kitchenette, living area, and modern amenities. Ideal for families or groups traveling together.',
@@ -339,7 +344,7 @@ export default function RoomDetail() {
               </button>
               
               <p className="text-center text-sm text-gray-500 mt-4">
-                You won't be charged yet
+                You wont be charged yet
               </p>
 
               {/* Quick Info */}

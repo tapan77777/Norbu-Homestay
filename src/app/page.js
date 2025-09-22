@@ -3,7 +3,7 @@ import { Calendar, ChevronDown, ChevronRight, Coffee, Eye, Heart, MapPin, Mounta
 import { useEffect, useState } from 'react'
 
 const DEMO_ROOMS = [
-  { _id:'r1', title:'Deluxe Mountain View', slug:'deluxe-room', short:'Breathtaking Himalayan views with private balcony', images:['/images/room1.jpg'], pricePerNight:2500, capacity:2, rating: 4.8, amenities: ['Mountain View', 'Balcony', 'WiFi'] },
+  { _id:'r1', title:'Deluxe Mountain Views', slug:'deluxe-room', short:'Breathtaking Himalayan views with private balcony', images:['/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0001.jpg'], pricePerNight:2500, capacity:2, rating: 4.8, amenities: ['Mountain View', 'Balcony', 'WiFi'] },
   { _id:'r2', title:'Family Heritage Suite', slug:'family-suite', short:'Spacious traditional suite perfect for families', images:['/images/room2.jpg'], pricePerNight:4200, capacity:4, rating: 4.9, amenities: ['Family Room', 'Tea Corner', 'Garden View'] },
   { _id:'r3', title:'Cozy Tea Garden Room', slug:'standard-room', short:'Intimate room overlooking tea gardens', images:['/images/room3.jpg'], pricePerNight:1800, capacity:2, rating: 4.7, amenities: ['Tea Garden View', 'Reading Nook', 'WiFi'] }
 ]

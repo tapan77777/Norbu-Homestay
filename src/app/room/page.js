@@ -13,10 +13,10 @@ export default function RoomsPage() {
       subtitle: "Ultimate Luxury Experience",
       description: "Indulge in unparalleled luxury with our Presidential Suite featuring panoramic mountain views, private balcony, marble bathroom, and personalized butler service.",
       images: [
-        "/images/room1.jpg",
-        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&h=600&fit=crop"
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0002.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0001.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0009.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0007.jpg"
       ],
       capacity: 4,
       price: "₹8,500",
@@ -33,10 +33,10 @@ export default function RoomsPage() {
       subtitle: "Breathtaking Scenery",
       description: "Wake up to stunning mountain vistas in this elegantly appointed room with modern amenities, cozy sitting area, and premium linens.",
       images: [
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&h=600&fit=crop"
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250915-WA0008.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250915-WA0006.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0010.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0000.jpg"
       ],
       capacity: 2,
       price: "₹4,200",
@@ -53,9 +53,9 @@ export default function RoomsPage() {
       subtitle: "Perfect for Families",
       description: "Spacious two-bedroom suite with separate living area, kitchenette, and connecting rooms. Entertainment system and child-friendly amenities included.",
       images: [
-        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250915-WA0006.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250915-WA0010.jpg",
+        "/images/Norbu homestay -20250922T165834Z-1-001/Norbu homestay/IMG-20250914-WA0000.jpg",
         "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&h=600&fit=crop"
       ],
       capacity: 6,
