@@ -28,8 +28,8 @@ const MobileMenu = ({ isOpen, onClose }) => {
             <Mountain className="w-5 h-5" />
             Home
           </Link>
-          <Link href="/rooms" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
-            Rooms & Suites
+          <Link href="/room" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
+            Room
           </Link>
           <Link href="/experiences" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
             Experiences
@@ -103,7 +103,7 @@ export default function ClientLayout({ children }) {
                 Home
                 <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-emerald-600 rounded-full"></div>
               </Link>
-              <Link href="/rooms" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              <Link href="/room" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 Rooms
               </Link>
               <Link href="/experiences" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
@@ -191,7 +191,7 @@ export default function ClientLayout({ children }) {
             <div>
               <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
               <div className="space-y-3">
-                <Link href="/rooms" className="block text-gray-300 hover:text-emerald-300 transition-colors">Our Rooms</Link>
+                <Link href="/room" className="block text-gray-300 hover:text-emerald-300 transition-colors">Our Rooms</Link>
                 <Link href="/experiences" className="block text-gray-300 hover:text-emerald-300 transition-colors">Experiences</Link>
                 <Link href="/gallery" className="block text-gray-300 hover:text-emerald-300 transition-colors">Gallery</Link>
                 <Link href="/about" className="block text-gray-300 hover:text-emerald-300 transition-colors">About Us</Link>
