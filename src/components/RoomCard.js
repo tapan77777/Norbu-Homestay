@@ -136,6 +136,7 @@ export default function RoomCard({ room, onView, onBook }) {
       {/* Card Content */}
       <div className="p-5">
         <div className="mb-3">
+            <img>{room.images}</img>
           <h4 className="font-semibold text-gray-900 text-lg mb-1">{room.title}</h4>
           <p className="text-sm text-gray-600 leading-relaxed">{room.short}</p>
         </div>
