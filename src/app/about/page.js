@@ -46,7 +46,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold">Our Story</h2>
           <p className="text-slate-600 mt-3">
             Norbu Homestay began when our family opened our doors to travellers who wanted more than a hotel 
-            they wanted human connection. Over the years we've hosted hundreds of guests, shared meals and stories,
+            they wanted human connection. Over the years weve hosted hundreds of guests, shared meals and stories,
             and helped travellers discover secret trails, local markets and traditional festivals.
           </p>
           <p className="text-slate-600 mt-3">
