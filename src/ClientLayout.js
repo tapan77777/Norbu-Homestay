@@ -1,6 +1,7 @@
 // src/app/ClientLayout.js
 'use client'
 import { Car, Coffee, Facebook, Heart, Instagram, Mail, MapPin, Menu, Mountain, Phone, Shield, Star, Twitter, Utensils, Wifi, X } from 'lucide-react'
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 const MobileMenu = ({ isOpen, onClose }) => {
@@ -23,25 +24,25 @@ const MobileMenu = ({ isOpen, onClose }) => {
         </div>
         
         <nav className="p-6 space-y-1">
-          <a href="/" className="flex items-center gap-3 p-3 text-emerald-600 bg-emerald-50 rounded-lg font-medium">
+          <Link href="/" className="flex items-center gap-3 p-3 text-emerald-600 bg-emerald-50 rounded-lg font-medium">
             <Mountain className="w-5 h-5" />
             Home
-          </a>
-          <a href="/rooms" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
+          </Link>
+          <Link href="/rooms" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
             Rooms & Suites
-          </a>
-          <a href="/experiences" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
+          </Link>
+          <Link href="/experiences" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
             Experiences
-          </a>
-          <a href="/gallery" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
+          </Link>
+          <Link href="/gallery" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
             Gallery
-          </a>
-          <a href="/about" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
+          </Link>
+          <Link href="/about" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
             About Us
-          </a>
-          <a href="/contact" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
+          </Link>
+          <Link href="/contact" className="flex items-center gap-3 p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors">
             Contact
-          </a>
+          </Link>
         </nav>
         
         <div className="p-6 border-t mt-auto">
@@ -77,7 +78,7 @@ export default function ClientLayout({ children }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
-            <a href="/" className="flex items-center gap-3 group">
+            <Link href="/" className="flex items-center gap-3 group">
               <div className="relative">
                 <div className="w-12 h-12 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   <Mountain className="w-6 h-6 text-white" />
@@ -94,36 +95,36 @@ export default function ClientLayout({ children }) {
                   Authentic Darjeeling Experience
                 </div>
               </div>
-            </a>
+            </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
-              <a href="/" className="text-emerald-600 font-medium hover:text-emerald-700 transition-colors relative">
+              <Link href="/" className="text-emerald-600 font-medium hover:text-emerald-700 transition-colors relative">
                 Home
                 <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-emerald-600 rounded-full"></div>
-              </a>
-              <a href="/rooms" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              </Link>
+              <Link href="/rooms" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 Rooms
-              </a>
-              <a href="/experiences" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              </Link>
+              <Link href="/experiences" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 Experiences
-              </a>
-              <a href="/gallery" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              </Link>
+              <Link href="/gallery" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 Gallery
-              </a>
-              <a href="/about" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              </Link>
+              <Link href="/about" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 About
-              </a>
-              <a href="/contact" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              </Link>
+              <Link href="/contact" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
                 Contact
-              </a>
+              </Link>
             </nav>
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
-              <a href="/admin" className="text-gray-600 hover:text-gray-800 transition-colors text-sm">
+              <Link href="/admin" className="text-gray-600 hover:text-gray-800 transition-colors text-sm">
                 Admin
-              </a>
+              </Link>
               <button className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2.5 rounded-lg font-medium hover:from-emerald-700 hover:to-teal-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Book Now
               </button>
@@ -174,15 +175,15 @@ export default function ClientLayout({ children }) {
               </p>
               
               <div className="flex items-center gap-4">
-                <a href="#" className="w-10 h-10 bg-white/10 hover:bg-emerald-600 rounded-lg flex items-center justify-center transition-colors group">
+                <Link href="#" className="w-10 h-10 bg-white/10 hover:bg-emerald-600 rounded-lg flex items-center justify-center transition-colors group">
                   <Facebook className="w-5 h-5 group-hover:text-white" />
-                </a>
-                <a href="#" className="w-10 h-10 bg-white/10 hover:bg-emerald-600 rounded-lg flex items-center justify-center transition-colors group">
+                </Link>
+                <Link href="#" className="w-10 h-10 bg-white/10 hover:bg-emerald-600 rounded-lg flex items-center justify-center transition-colors group">
                   <Instagram className="w-5 h-5 group-hover:text-white" />
-                </a>
-                <a href="#" className="w-10 h-10 bg-white/10 hover:bg-emerald-600 rounded-lg flex items-center justify-center transition-colors group">
+                </Link>
+                <Link href="#" className="w-10 h-10 bg-white/10 hover:bg-emerald-600 rounded-lg flex items-center justify-center transition-colors group">
                   <Twitter className="w-5 h-5 group-hover:text-white" />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -190,11 +191,11 @@ export default function ClientLayout({ children }) {
             <div>
               <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
               <div className="space-y-3">
-                <a href="/rooms" className="block text-gray-300 hover:text-emerald-300 transition-colors">Our Rooms</a>
-                <a href="/experiences" className="block text-gray-300 hover:text-emerald-300 transition-colors">Experiences</a>
-                <a href="/gallery" className="block text-gray-300 hover:text-emerald-300 transition-colors">Gallery</a>
-                <a href="/about" className="block text-gray-300 hover:text-emerald-300 transition-colors">About Us</a>
-                <a href="/contact" className="block text-gray-300 hover:text-emerald-300 transition-colors">Contact</a>
+                <Link href="/rooms" className="block text-gray-300 hover:text-emerald-300 transition-colors">Our Rooms</Link>
+                <Link href="/experiences" className="block text-gray-300 hover:text-emerald-300 transition-colors">Experiences</Link>
+                <Link href="/gallery" className="block text-gray-300 hover:text-emerald-300 transition-colors">Gallery</Link>
+                <Link href="/about" className="block text-gray-300 hover:text-emerald-300 transition-colors">About Us</Link>
+                <Link href="/contact" className="block text-gray-300 hover:text-emerald-300 transition-colors">Contact</Link>
               </div>
             </div>
 
@@ -211,15 +212,15 @@ export default function ClientLayout({ children }) {
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-emerald-400" />
-                  <a href="tel:+919876543210" className="text-gray-300 hover:text-emerald-300 transition-colors text-sm">
+                  <Link href="tel:+919876543210" className="text-gray-300 hover:text-emerald-300 transition-colors text-sm">
                     +91 98765 43210
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-emerald-400" />
-                  <a href="mailto:stay@norbuhomestay.com" className="text-gray-300 hover:text-emerald-300 transition-colors text-sm">
+                  <Link href="mailto:stay@norbuhomestay.com" className="text-gray-300 hover:text-emerald-300 transition-colors text-sm">
                     stay@norbuhomestay.com
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -277,8 +278,8 @@ export default function ClientLayout({ children }) {
                 © {new Date().getFullYear()} Norbu Homestay. All rights reserved. Made with ❤️ in Darjeeling.
               </div>
               <div className="flex items-center gap-6 text-sm">
-                <a href="/privacy" className="text-gray-400 hover:text-emerald-300 transition-colors">Privacy Policy</a>
-                <a href="/terms" className="text-gray-400 hover:text-emerald-300 transition-colors">Terms of Service</a>
+                <Link href="/privacy" className="text-gray-400 hover:text-emerald-300 transition-colors">Privacy Policy</Link>
+                <Link href="/terms" className="text-gray-400 hover:text-emerald-300 transition-colors">Terms of Service</Link>
                 <div className="flex items-center gap-1 text-gray-400">
                   <Star className="w-4 h-4 text-yellow-400 fill-current" />
                   <span>4.8/5 Rating</span>
