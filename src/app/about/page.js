@@ -1,4 +1,5 @@
 // src/app/about/page.js
+import { Link } from 'lucide-react'
 import Image from 'next/image'
 
 export const metadata = {
@@ -21,8 +22,8 @@ export default function AboutPage() {
             </p>
 
             <div className="mt-6 flex gap-3 items-center">
-              <a href="/rooms" className="inline-block rounded-md bg-sky-600 text-white px-4 py-2 shadow">View Rooms</a>
-              <a href="/experience" className="inline-block rounded-md border px-4 py-2 text-slate-700">See Experiences</a>
+              <Link href="/rooms" className="inline-block rounded-md bg-sky-600 text-white px-4 py-2 shadow">View Rooms</Link>
+              <Link href="/experience" className="inline-block rounded-md border px-4 py-2 text-slate-700">See Experiences</Link>
             </div>
           </div>
 
@@ -44,13 +45,13 @@ export default function AboutPage() {
         <div>
           <h2 className="text-2xl font-semibold">Our Story</h2>
           <p className="text-slate-600 mt-3">
-            Norbu Homestay began when our family opened our doors to travellers who wanted more than a hotel —
+            Norbu Homestay began when our family opened our doors to travellers who wanted more than a hotel 
             they wanted human connection. Over the years we've hosted hundreds of guests, shared meals and stories,
             and helped travellers discover secret trails, local markets and traditional festivals.
           </p>
           <p className="text-slate-600 mt-3">
-            We believe travel should be about people and place. That’s why we keep things small, personal and sustainable.
-            You’ll find garden-grown vegetables at breakfast, helpful local tips, and a comfortable room to rest each night.
+            We believe travel should be about people and place. Thats why we keep things small, personal and sustainable.
+            Youll find garden-grown vegetables at breakfast, helpful local tips, and a comfortable room to rest each night.
           </p>
         </div>
 
@@ -104,10 +105,10 @@ export default function AboutPage() {
       {/* CTA & Contact */}
       <section className="mt-8 text-center">
         <h3 className="text-xl font-semibold">Want to stay with us?</h3>
-        <p className="text-slate-600 mt-2 mb-4">Check availability or message us — we’ll be happy to welcome you.</p>
+        <p className="text-slate-600 mt-2 mb-4">Check availability or message us — well be happy to welcome you.</p>
         <div className="flex justify-center gap-3">
-          <a href="/rooms" className="rounded-md bg-sky-600 text-white px-4 py-2">Check Rooms</a>
-          <a href="/contact" className="rounded-md border px-4 py-2 text-slate-700">Contact Us</a>
+          <Link href="/rooms" className="rounded-md bg-sky-600 text-white px-4 py-2">Check Rooms</Link>
+          <Link href="/contact" className="rounded-md border px-4 py-2 text-slate-700">Contact Us</Link>
         </div>
       </section>
     </div>

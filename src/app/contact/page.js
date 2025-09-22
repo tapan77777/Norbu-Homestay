@@ -119,14 +119,14 @@ export default function ContactPage() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Let's Plan Your
+              Lets Plan Your
               <span className="block bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
                 Perfect Mountain Getaway
               </span>
             </h1>
             
             <p className="text-xl text-emerald-100 max-w-3xl mx-auto leading-relaxed">
-              Whether you're planning a romantic retreat, family vacation, or solo adventure, 
+              Whether youre planning a romantic retreat, family vacation, or solo adventure, 
               our team is here to create unforgettable memories in the heart of Darjeeling.
             </p>
 
@@ -212,7 +212,7 @@ export default function ContactPage() {
                   <div className="mb-8">
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">Send Us a Message</h2>
                     <p className="text-gray-600 text-lg">
-                      Fill out the form below and we'll get back to you with personalized recommendations and booking details.
+                      Fill out the form below and well get back to you with personalized recommendations and booking details.
                     </p>
                   </div>
 
