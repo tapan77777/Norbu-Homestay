@@ -127,7 +127,7 @@ const HeroSection = () => {
             isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
           }`}>
             {HERO_IMAGES[currentImageIndex].description} • Wake up to misty mountain views, 
-            sip the world's finest tea, and create unforgettable memories in our authentic Himalayan homestay
+            sip the worlds finest tea, and create unforgettable memories in our authentic Himalayan homestay
           </p>
           
           {/* Features Pills */}
